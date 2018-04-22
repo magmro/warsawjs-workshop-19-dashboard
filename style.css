@@ -13,6 +13,7 @@ h1 {
   height: 50px;
   background-color: #808080;
   display: flex;
+
 }
 
 .top p {
@@ -46,9 +47,12 @@ a {
   border-right: 2px gray;
 }
 
-.nav li{
-  list-style: none;
+.nav li, .nav li a {
+  display: block;
   padding: 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .nav li:hover{
