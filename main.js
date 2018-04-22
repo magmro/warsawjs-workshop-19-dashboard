@@ -2,10 +2,10 @@
 
 const button = document.querySelector('#menu-icon')
 
-button.addEventListener("click", function() {
+button.addEventListener("click", function(event) {
 
   const aside = document.querySelector('aside')
-  aside.classList.toggle('hodor')
+  aside.classList.toggle('toggle')
 });
 
 var date = new Date();

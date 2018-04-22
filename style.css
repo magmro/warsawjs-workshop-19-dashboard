@@ -9,10 +9,6 @@ h1 {
   margin: 30px;
 }
 
-.hodor {
-  display: none;
-}
-
 .top {
   width: 100%;
   height: 50px;
@@ -48,9 +44,9 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  width: 180px;
+  width: 200px;
   height: 100%;
-  border-right: 2px gray;
+  box-shadow: 4px 0 10px 2px rgba(200,200,200,0.1);
 }
 
 .nav li, .nav li a {
@@ -113,4 +109,19 @@ a {
 
 #month {
   margin-right: 10px;
+}
+
+.toggle {
+    display: none;
+}
+
+@media all and (max-width: 700px){
+    .mobile-default-hidden {
+        display: none;
+    }
+    .toggle {
+        position: absolute;
+        display: flex;
+        width: 100%;
+    }
 }
