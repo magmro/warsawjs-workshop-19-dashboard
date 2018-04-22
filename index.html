@@ -12,7 +12,7 @@
 <body>
 
 <header class="top">
-  <img src="img/menu.svg" />
+  <img id="menu-icon" src="img/menu.svg" alt="menu"/>
 
 <p>MY DASHBOARD</p>
 
@@ -28,10 +28,15 @@
     </ul>
   </aside>
 
-  <content class="container">
+  <section class="container">
 
-
-
+    <div class="tile">
+      <h6 id="day">  </h6>
+      <div class="calendar">
+      <p id='month'>  </p>
+      <p id='year'>  </p>
+    </div>
+    </div>
 
     <div class="tile">
       <img class="tile-img" src="img/news.svg" alt="news" />
@@ -68,8 +73,8 @@
       <h3> Wifi </h3>
       <p> Nam egestas libero id ex semper porttitor. </p>
     </div>
-  </content>
+  </section>
 </main>
-
+<script src="main.js"></script>
 </body>
 </html>
